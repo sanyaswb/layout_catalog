@@ -4,6 +4,6 @@
   display: grid;
   justify-content: center;
   grid-template-rows: $header-height auto;
-  grid-template-columns: 100%;
   grid-auto-flow: row;
+  row-gap: 50px;
 }
