@@ -1,0 +1,57 @@
+a {
+  color: blue;
+  text-decoration: underline;
+  cursor: auto;
+  background-color: transparent;
+  font: inherit;
+  font-family: inherit;
+  font-size: inherit;
+  font-style: inherit;
+  font-variant: inherit;
+  font-weight: inherit;
+  line-height: inherit;
+  outline: none;
+}
+
+a:link {
+  color: blue;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: purple;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: blue;
+  text-decoration: underline;
+}
+
+a:active {
+  color: red;
+  text-decoration: underline;
+}
+
+button {
+  appearance: button;
+  -webkit-appearance: button;
+  cursor: pointer;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  user-select: none;
+  background-color: buttonface;
+  color: buttontext;
+  border: 2px outset buttonborder;
+  padding: 1px 6px;
+  font: menu;
+  line-height: normal;
+  outline: none;
+  text-transform: none;
+  overflow: visible;
+}
+
+button:focus {
+  outline: auto;
+}
