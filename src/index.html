@@ -38,7 +38,7 @@
           <li>
             <a
               href="#apple"
-              class="nav__link nav__link--active"
+              class="nav__link is-active"
             >
               apple
             </a>
@@ -63,7 +63,7 @@
             <a
               href="#laptops"
               class="nav__link"
-              data-qa="hover"
+              data-qa="nav-hover"
             >
               laptops&nbsp;&&nbsp;computers
             </a>
@@ -104,8 +104,11 @@
       </nav>
     </header>
     <section class="main">
-      <div class="cards">
-        <div class="cards__card card">
+      <main class="cards">
+        <div
+          class="cards__card card"
+          data-qa="card"
+        >
           <img
             src="../src/images/imac.jpeg"
             alt="imac"
@@ -132,6 +135,7 @@
           <a
             href="#"
             class="card__button button"
+            data-qa="card-hover"
           >
             bay
           </a>
@@ -353,7 +357,8 @@
             bay
           </a>
         </div>
-      </div>
+      </main>
     </section>
+    d
   </body>
 </html>

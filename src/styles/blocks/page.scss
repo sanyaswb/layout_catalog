@@ -1,9 +1,5 @@
 .page {
   font-family: Roboto, Arial, sans-serif;
   height: 100vh;
-  display: grid;
-  justify-content: center;
-  grid-template-rows: $header-height auto;
-  grid-auto-flow: row;
-  row-gap: 50px;
+  width: 100%;
 }
