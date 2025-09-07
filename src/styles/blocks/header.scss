@@ -1,3 +1,11 @@
-// .header {
-//   grid-area: header;
-// }
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 50px;
+  -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.05);
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.05);
+}
+
+.logo__img {
+  height: 40px;
+}

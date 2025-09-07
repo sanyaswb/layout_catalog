@@ -1,1 +1,42 @@
-// nav
+.nav {
+  display: flex;
+
+  &__list {
+    display: flex;
+    gap: 20px;
+  }
+
+  &__link {
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    text-transform: uppercase;
+    color: $primary-font-color;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 100%;
+
+    &--active {
+      color: $highlight-font-color;
+    }
+
+    &--active::before {
+      position: absolute;
+      content: '';
+      width: 100%;
+      height: 2px;
+      background-color: $highlight-font-color;
+      border-radius: 8px;
+      bottom: 0;
+    }
+  }
+
+  &__link:hover {
+    color: $highlight-font-color;
+  }
+
+  &__link:active {
+    color: $primary-font-color;
+  }
+}
