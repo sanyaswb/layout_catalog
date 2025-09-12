@@ -42,7 +42,7 @@
     margin-bottom: 40px;
   }
 
-  &__description {
+  &__title {
     color: $primary-font-color;
     font-weight: 500;
     font-size: 12px;
@@ -55,7 +55,7 @@
   &:hover {
     transform: scale(1.2);
 
-    .card__description {
+    .card__title {
       color: #34568b;
     }
   }
