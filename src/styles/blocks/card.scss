@@ -2,9 +2,10 @@
   display: grid;
   grid-template-columns: repeat(1, 200px);
   grid-auto-flow: row;
-  gap: 46px 48px;
+  gap: 48px 46px;
   max-width: 944px;
   height: 862px;
+  padding: 50px 40px;
 
   @media (min-width: 488px) {
     grid-template-columns: repeat(2, 200px);
