@@ -1,6 +1,6 @@
 .cards {
   display: grid;
-  grid-template-columns: repeat(1, 200px);
+  grid-template-columns: repeat(1, $width-card);
   grid-auto-flow: row;
   gap: 48px 46px;
   max-width: 944px;
@@ -8,15 +8,15 @@
   padding: 50px 40px;
 
   @media (min-width: 488px) {
-    grid-template-columns: repeat(2, 200px);
+    grid-template-columns: repeat(2, $width-card);
   }
 
   @media (min-width: 768px) {
-    grid-template-columns: repeat(3, 200px);
+    grid-template-columns: repeat(3, $width-card);
   }
 
   @media (min-width: 1024px) {
-    grid-template-columns: repeat(4, 200px);
+    grid-template-columns: repeat(4, $width-card);
   }
 }
 
@@ -28,7 +28,7 @@
   border-radius: 5px;
   border: 1px solid #f3f3f3;
 
-  width: 200px;
+  width: $width-card;
   height: 408px;
   padding: 32px 16px 16px;
 
@@ -123,7 +123,7 @@
   font-weight: 700;
   background-color: $highlight-font-color;
   border-radius: 5px;
-  color: #fff;
+  color: $white-font-color;
   line-height: 16px;
   letter-spacing: 0%;
   text-transform: uppercase;
